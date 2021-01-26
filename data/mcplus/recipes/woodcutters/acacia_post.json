@@ -1,0 +1,15 @@
+{
+  "group": "mcplus",
+  "type": "minecraft:woodcutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
+  },
+  "result": "quark:acacia_post",
+  "conditions": [
+    {
+      "type": "charm:module_enabled",
+      "module": "charm:woodcutters"
+    }
+  ]
+}
